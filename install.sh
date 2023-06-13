@@ -8,7 +8,7 @@ apt update
 sleep 1
 echo -e "Installing Update"
 sleep 1
-apt upgrade
+apt upgrade -y
 sleep 1
 echo "Initiating Pterodactyl Install Script"
 bash <(curl -s https://pterodactyl-installer.se) < ./game-server-devops/install_args.txt
